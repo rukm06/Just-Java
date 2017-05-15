@@ -21,9 +21,9 @@
 
         <TextView
             android:id="@+id/textView3"
+            style="@style/HeaderTextStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/toppings"
-            style="@style/HeaderTextStyle" />
+            android:text="@string/toppings" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
@@ -45,9 +45,9 @@
 
         <TextView
             android:id="@+id/textView"
+            style="@style/HeaderTextStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/quantity"
-            style="@style/HeaderTextStyle" />
+            android:text="@string/quantity" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -90,3 +90,4 @@
 
     </LinearLayout>
 </ScrollView>
+
